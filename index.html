@@ -14,6 +14,7 @@
         <link rel="stylesheet" type="text/css" href="./library/slick/slick.css" />
         <!-- // Add the new slick-theme.css if you want the default styling -->
         <link rel="stylesheet" type="text/css" href="./library/slick/slick-theme.css" />
+        <link href="./library/aos/aos.css" rel="stylesheet">
 
         <link rel="stylesheet" href="style.css">
     </head>
@@ -125,10 +126,13 @@
                 </header>
                 <div class="hero_area">
 
-                    <h1 class="inline">Web Somadan
+                    <h1 class="inline" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">Web
+                        Somadan
 
                     </h1>
-                    <p class="block"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae est
+                    <p class="block" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                        Lorem
+                        ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae est
                         incidunt vero ut voluptas quibusdam! Sequi exercitationem suscipit culpa at accusantium
                         similique cupiditate, dolor adipisci eveniet quasi optio quo eos.
                     </p>
@@ -176,7 +180,6 @@
         <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
         <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
         <script type="text/javascript" src="./library/slick/slick.js"></script>
-
         <script type="text/javascript">
             $(document).ready(function () {
                 $('.your-class').slick({
@@ -186,6 +189,12 @@
                     dots: true,
                 });
             });
+        </script>
+        <!-- AOS -->
+        <script src="./library/aos/aos.js"></script>
+
+        <script>
+            AOS.init();
         </script>
 
     </body>
